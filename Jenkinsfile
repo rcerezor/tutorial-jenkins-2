@@ -25,7 +25,7 @@ node {
    echo '*executing ... Sonarqube*'
    sh 'mvn clean install sonar:sonar -P qa-ui -Dmaven.test.skip=true -f ./pom.xml'
    
-   // -- Compilando
+   // -- Compilando //
    echo 'Compilando aplicación'
    sh 'mvn clean compile'
    
